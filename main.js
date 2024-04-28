@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $('#numero-agenda').mask('(00) 00000-0000');
+})
+
 const form = document.getElementById('form-agenda');
 const nome = [];
 const numero = [];
